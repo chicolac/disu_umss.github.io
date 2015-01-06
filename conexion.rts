@@ -1,0 +1,43 @@
+<?php
+
+class BD {
+
+  var $host = "localhost";
+  //var $puerto = "5432";
+  var $bd = "comentarios";
+  var $usuario = "eddy";
+  var $clave = "eddy";
+  var $conex;
+
+  function BD() {
+    $cx = mysql_connect($this->host, $this->usuario, $this->clave);
+	
+    if (!($cx)) {
+      echo "<p><b>Ocurri� un error conectando a la base de datos: .</b></p>";
+      exit;
+    }
+	
+    //$cx = mysql_select_db("agenda",$cx);
+
+    if (!mysql_select_db($this->bd,$cx))
+    {
+      echo "<br>Error seleccionando la base de datos.";
+      exit();
+    }
+    
+    $this->conex = $cx;
+       
+  }
+
+  function conexion() {
+    return $this->conex;
+  }	
+
+  function cerrar() {
+      if (!mysql_close($this->conex)) {
+          echo 'no me cerre bien<br>';
+      }
+  }
+
+}
+?>

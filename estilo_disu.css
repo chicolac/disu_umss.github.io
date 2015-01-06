@@ -1,0 +1,17 @@
+#cabecera {
+	background-color:#efefef;
+	height:160px;
+	width:910px;
+}
+
+#pedasito_blanco {
+	float:left;
+	height:160px;
+	width:500px;	
+}
+
+#pedasito_rojito {
+	float:left;
+	height:160px;
+	width:410px;
+}

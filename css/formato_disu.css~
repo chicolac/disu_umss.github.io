@@ -1,0 +1,206 @@
+TH {
+	background-color: #DEEBF7;
+	/*    font-family: Verdana,sans-serif;*/
+	font-size: 14px;
+	text-align: center;
+	border: 2px solid #FB0000;
+}
+
+TD {
+	border: 1.5px solid #FB0000;
+}
+
+body {
+/*	background-color: #000;
+	color: red;*/
+	background-image: url(../images/marca_agua/marquita.png);
+	background-repeat: no-repeat;
+}
+
+.letra-control {
+	font-size: 2.5em;
+}
+
+#lateral {
+	float: left;
+	/*padding: 0 51px 0 0;*/
+	background-color: #DEEBF7;
+	width: 320px;
+	padding-bottom: 50px;
+	padding-top: 25px;
+}
+
+#lateral nav ul li a {
+	background-color: #4472C4;
+}
+
+#menu_principal nav ul li {
+	padding-right: 15px;
+}
+
+#lateral nav ul li ul li a {
+	background-color: #5B9BD5;
+}
+
+#lateral nav ul li ul li:hover>a {
+	color:#FC4A48;
+/*	background-color: #DEEBF7;*/
+	background-color: #A0E0FC;
+}
+
+#lateral nav ul li ul li ul li a {
+	background-color: #31B0D5;
+}
+
+#lateral nav ul li ul li ul li:hover>a {
+	color:#FC4A48;
+/*	background-color: #DEEBF7;*/
+	background-color: #A0E0FC;
+}
+
+ul {
+	/*list-style:none;*/
+}
+
+#blanco_norte {
+	float: left;
+	width: 880px;
+	height: 120px;
+}
+
+#rojo_norte {
+	float: left;
+	width: 60px;
+	height: 120px;
+	background-color: #FB0000;
+}
+
+#carouselito {
+	clear: left;
+}
+
+#disu_logotipo {
+	width: 184px;				
+	height: 80px;
+	float: left;
+	background-color: #FB0000;
+}
+
+#titulo_completo {
+	width: 740px;
+	height: 80px;
+	float: left;
+	color: white;
+	background-color: #4472C3;
+	padding-left: 10px;
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-left-width: thick;
+	border-top-color: #4678CE;
+	border-right-color: #5E9EFF;
+	border-bottom-color: #5E9EFF;
+	border-left-color: #4678CE;
+}
+
+#fondo_cabecera {
+	clear: left;
+	/*position: relative;*/
+	position:absolute;
+	top:0;
+}
+
+#cabecera_logo {
+	clear:left;
+	/*position: relative;*/
+	position: absolute;
+	top: 20px;
+}
+
+#menu_principal {
+	background-color: #000099;
+	clear: left;
+}
+
+#pagina {
+	margin: 0 auto;
+	width: 940px;
+	background-color: #fff;
+}
+
+footer {
+	clear: left;
+	background-color:#DEEBF7;
+	height:59px;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 1px 1px 2px #500ABC;
+	padding-top:1px;
+	margin-bottom: 10px;
+	text-align:center;
+	line-height:12px;
+	text-shadow: 1px 1px 2px #500ABC;
+}
+
+#wrapper {
+	height: 120px;
+	width: 940px;
+}
+
+#texto_central {
+	padding-left: 370px;
+	margin-right: 20px;
+	margin-top: 7px;
+	padding-top: 15px;
+	text-align: justify;
+	/*float: left;*/
+}
+
+#texto_central-rfo {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 7px;
+	padding-top: 8px;
+	text-align: justify;
+	/*float: left;*/
+}
+
+#texto_imagen-central {
+
+}
+
+#funciones_objetivos {
+	width: 600px;
+	float: left;
+	padding-left: 40px;
+	padding-right: 20px;
+	/*margin-top: 7px;*/
+	padding-top: 22px;
+	padding-bottom: 22px;
+	text-align: justify;
+}
+
+#imagen_central-derecha {
+	width: 340px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	float: left;
+}
+
+#linea1 {
+	height: 4px;
+	width: 940px;
+	margin-top: 85px;
+	background-color: #FF0000;
+}
+
+#linea2 {
+	height: 4px;
+	width: 940px;
+	margin-top: 2px;
+	background-color: #FF7575;
+}
+
